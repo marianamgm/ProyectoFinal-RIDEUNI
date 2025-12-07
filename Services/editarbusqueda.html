@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Búsqueda</title>
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/editarbusqueda.css">
+</head>
+<body>
+
+<div id="navbar"></div>
+<script src="/js/navbar.js"></script>
+
+<div class="edit-container">
+
+    <h2>Editar búsqueda</h2>
+
+    <form class="edit-form">
+
+        <label>Origen</label>
+        <input type="text" placeholder="Ej. Central, Soriana, Urbi…">
+
+        <label>Destino</label>
+        <input type="text" placeholder="Ej. Universidad UTS">
+
+        <label>Fecha</label>
+        <input type="date">
+
+        <label>Hora</label>
+        <input type="time">
+
+        <label>Pasajeros</label>
+        <select>
+            <option>1 pasajero</option>
+            <option>2 pasajeros</option>
+            <option>3 pasajeros</option>
+        </select>
+
+        <button type="button" class="btn-buscar" id="btnBuscarEdit">Buscar nuevamente</button>
+
+    </form>
+
+</div>
+
+<footer class="footer">
+    © 2024 RideUni. Todos los derechos reservados · Contacto · Términos · Política de Privacidad
+</footer>
+
+<script src="/js/editarbusqueda.js"></script>
+
+</body>
+</html>

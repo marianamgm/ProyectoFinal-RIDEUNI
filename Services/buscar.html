@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Raite</title>
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/buscar.css">
+</head>
+<body>
+
+<div id="navbar"></div>
+<script src="/js/navbar.js"></script>
+
+<div class="rideuni-container">
+
+    <div class="top-info">
+        <span>Central ➜ Universidad UTS</span>
+        <span>Hoy</span>
+        <button id="btndetalles" class="edit-btn">Editar búsqueda</button>
+    </div>
+
+    <div class="main-content">
+      
+        <div class="left-panel">
+            <iframe 
+                class="map-frame"
+                src="https://www.google.com/maps?q=Ciudad+Obregon+Sonora&output=embed"
+                style="width:100%; height:100%; border:0;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+
+        <div class="right-panel">
+
+            <div class="search-header">
+                <h3 class="hour">7:00 AM</h3>
+                <h3 class="price">$45.00 MXN</h3>
+            </div>
+
+            <div class="card">
+                <div class="info">
+                    <h4>Sofía Felix — 4.9</h4>
+                    <p>Punto de recogida: Soriana</p>
+                    <p>Asientos disponibles: 2</p>
+                </div>
+                <button id="btnSofia" class="details-btn">Ver Detalles</button>
+            </div>
+
+            <div class="card">
+                <div class="info">
+                    <h4>Daniel Lopez — 4.7</h4>
+                    <p>Punto de recogida: Central</p>
+                    <p>Asientos disponibles: 2/4</p>
+                </div>
+                <button id="btnDaniel" class="details-btn">Ver Detalles</button>
+            </div>
+
+            <div class="card">
+                <div class="info">
+                    <h4>Carla Ruiz — 4.8</h4>
+                    <p>Punto de recogida: Urbi</p>
+                    <p>Asientos disponibles: 1/4</p>
+                </div>
+                <button id="btnCarla" class="details-btn">Ver Detalles</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    © 2024 RideUni. Todos los derechos reservados · Contacto · Términos · Política de Privacidad
+</footer>
+
+<script src="/js/buscar.js"></script>
+
+</body>
+</html>
